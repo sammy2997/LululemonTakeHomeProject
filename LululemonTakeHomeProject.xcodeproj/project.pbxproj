@@ -3,17 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7EADA57529687B83002B2494 /* LululemonTakeHomeProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA57429687B83002B2494 /* LululemonTakeHomeProjectApp.swift */; };
-		7EADA57729687B83002B2494 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA57629687B83002B2494 /* ContentView.swift */; };
+		7EADA57729687B83002B2494 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA57629687B83002B2494 /* HomeView.swift */; };
 		7EADA57929687B85002B2494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EADA57829687B85002B2494 /* Assets.xcassets */; };
 		7EADA57C29687B85002B2494 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EADA57B29687B85002B2494 /* Preview Assets.xcassets */; };
 		7EADA58629687B85002B2494 /* LululemonTakeHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA58529687B85002B2494 /* LululemonTakeHomeProjectTests.swift */; };
 		7EADA59029687B85002B2494 /* LululemonTakeHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA58F29687B85002B2494 /* LululemonTakeHomeProjectUITests.swift */; };
 		7EADA59229687B85002B2494 /* LululemonTakeHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA59129687B85002B2494 /* LululemonTakeHomeProjectUITestsLaunchTests.swift */; };
+		7EADA5AE29688321002B2494 /* GarmentStorePersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA5AD29688321002B2494 /* GarmentStorePersistentManager.swift */; };
+		7EADA5B229688A62002B2494 /* AddGarmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA5B129688A62002B2494 /* AddGarmentView.swift */; };
+		7EADA5B529689E83002B2494 /* GarmentStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA5B329689E83002B2494 /* GarmentStore.xcdatamodeld */; };
+		7EADA5B8296BE396002B2494 /* SegControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA5B7296BE396002B2494 /* SegControl.swift */; };
+		7EADA5BD296BF681002B2494 /* HomeView+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EADA5BC296BF681002B2494 /* HomeView+Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		7EADA57129687B83002B2494 /* LululemonTakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LululemonTakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EADA57429687B83002B2494 /* LululemonTakeHomeProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LululemonTakeHomeProjectApp.swift; sourceTree = "<group>"; };
-		7EADA57629687B83002B2494 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7EADA57629687B83002B2494 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7EADA57829687B85002B2494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EADA57B29687B85002B2494 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7EADA58129687B85002B2494 /* LululemonTakeHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LululemonTakeHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		7EADA58B29687B85002B2494 /* LululemonTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LululemonTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EADA58F29687B85002B2494 /* LululemonTakeHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LululemonTakeHomeProjectUITests.swift; sourceTree = "<group>"; };
 		7EADA59129687B85002B2494 /* LululemonTakeHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LululemonTakeHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EADA5AD29688321002B2494 /* GarmentStorePersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentStorePersistentManager.swift; sourceTree = "<group>"; };
+		7EADA5B129688A62002B2494 /* AddGarmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGarmentView.swift; sourceTree = "<group>"; };
+		7EADA5B429689E83002B2494 /* GarmentStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GarmentStore.xcdatamodel; sourceTree = "<group>"; };
+		7EADA5B7296BE396002B2494 /* SegControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegControl.swift; sourceTree = "<group>"; };
+		7EADA5BC296BF681002B2494 /* HomeView+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView+Title.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				7EADA57429687B83002B2494 /* LululemonTakeHomeProjectApp.swift */,
-				7EADA57629687B83002B2494 /* ContentView.swift */,
+				7EADA59E29687C04002B2494 /* Views */,
+				7EADA5A42968814F002B2494 /* CoreData */,
+				7EADA5B6296BE1BB002B2494 /* Extension */,
 				7EADA57829687B85002B2494 /* Assets.xcassets */,
 				7EADA57A29687B85002B2494 /* Preview Content */,
 			);
@@ -125,6 +137,41 @@
 				7EADA59129687B85002B2494 /* LululemonTakeHomeProjectUITestsLaunchTests.swift */,
 			);
 			path = LululemonTakeHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		7EADA59E29687C04002B2494 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EADA57629687B83002B2494 /* HomeView.swift */,
+				7EADA5B129688A62002B2494 /* AddGarmentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7EADA5A42968814F002B2494 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7EADA5AC29688305002B2494 /* Managers */,
+				7EADA5B329689E83002B2494 /* GarmentStore.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7EADA5AC29688305002B2494 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7EADA5AD29688321002B2494 /* GarmentStorePersistentManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7EADA5B6296BE1BB002B2494 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7EADA5B7296BE396002B2494 /* SegControl.swift */,
+				7EADA5BC296BF681002B2494 /* HomeView+Title.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +254,7 @@
 				};
 			};
 			buildConfigurationList = 7EADA56C29687B83002B2494 /* Build configuration list for PBXProject "LululemonTakeHomeProject" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -257,7 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EADA57729687B83002B2494 /* ContentView.swift in Sources */,
+				7EADA57729687B83002B2494 /* HomeView.swift in Sources */,
+				7EADA5B529689E83002B2494 /* GarmentStore.xcdatamodeld in Sources */,
+				7EADA5B8296BE396002B2494 /* SegControl.swift in Sources */,
+				7EADA5AE29688321002B2494 /* GarmentStorePersistentManager.swift in Sources */,
+				7EADA5BD296BF681002B2494 /* HomeView+Title.swift in Sources */,
+				7EADA5B229688A62002B2494 /* AddGarmentView.swift in Sources */,
 				7EADA57529687B83002B2494 /* LululemonTakeHomeProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +477,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,6 +485,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adama.LululemonTakeHomeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +510,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,6 +518,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.adama.LululemonTakeHomeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -583,6 +643,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7EADA5B329689E83002B2494 /* GarmentStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EADA5B429689E83002B2494 /* GarmentStore.xcdatamodel */,
+			);
+			currentVersion = 7EADA5B429689E83002B2494 /* GarmentStore.xcdatamodel */;
+			path = GarmentStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7EADA56929687B83002B2494 /* Project object */;
 }
