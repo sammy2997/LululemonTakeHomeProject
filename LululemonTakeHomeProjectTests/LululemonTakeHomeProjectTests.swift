@@ -54,6 +54,19 @@ final class LululemonTakeHomeProjectTests: XCTestCase {
         XCTAssertNotNil(allGarments)
     }
     
+    func testUpdatingGarment() throws {
+        var allGarments = persistenceManager.getAllGarments()
+        if allGarments.isEmpty {
+            persistenceManager.addNewGarment("Jacket")
+            allGarments = persistenceManager.getAllGarments()
+        }
+        allGarments[0].name = "TestNewGarment"
+        persistenceManager.updateGarment()
+        
+
+        XCTAssertEqual(allGarments[0].name, "TestNewGarment")
+    }
+    
     func testAddingGarment() throws {
         persistenceManager.addNewGarment("Jacket")
         let allGarments = persistenceManager.getAllGarments()
