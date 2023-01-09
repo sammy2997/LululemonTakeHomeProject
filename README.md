@@ -4,8 +4,6 @@ Lululemon Assesment
 About the Application: 
 Created an App to add new garments to a list, delete existing garments and edit existing garments too. There are 2 screens, one to sort the list in alphabetical order or by date, and another to add new items to the list. Persistence is handled in Core Data. 
 
-Tech stack: Swift 5.0, SwiftUOI, Xcode 14.2(Xcode 13 compatible).
-
 ## Build tools & versions used
 - Xcode Version 14.2(Xcode 13 compatible)
 - Swift 5, SwiftUI, UIKit, Foundation, XCTests
