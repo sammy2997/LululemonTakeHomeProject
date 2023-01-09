@@ -6,6 +6,12 @@ Created an App to add new garments to a list, delete existing garments and edit 
 
 Tech stack: Swift 5.0, SwiftUOI, Xcode 14.2(Xcode 13 compatible).
 
+## Build tools & versions used
+- Xcode Version 14.2(Xcode 13 compatible)
+- Swift 5, SwiftUI, UIKit, Foundation, XCTests
+
+## What areas of the app did you focus on?
+- UI functionality, Core Data and Unit Testing.
 
 Screenshots:
 
